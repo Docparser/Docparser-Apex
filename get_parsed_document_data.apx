@@ -1,0 +1,17 @@
+/*Created By Theertha Prasad */
+
+// change the following variables according to your use-case
+String strApiKey = 'APIKEY';
+String strParserId = 'PARSERID';
+String strTargetURL = 'https://api.docparser.com/v1/results/' + strParserId + '/<docpaser_Doc_Id>' ;
+
+// send out the request
+HttpRequest req = New HttpRequest();
+req.setHeader('Authorization', 'Basic ' + strApiKey);
+req.setMethod('GET');
+req.setEndpoint(strTargetURL);
+Http http = New Http();
+HTTPResponse res = http.send(req);
+system.debug('res'+res.getBody());
+
+/*Created By Theertha Prasad */
