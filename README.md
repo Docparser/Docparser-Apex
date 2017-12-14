@@ -36,8 +36,8 @@ Docparser also offer a direct [Salesforce integration](https://docparser.com/int
 
 At the time of writing, two API routes are available as Apex code snippets. The two snippets allow you to perform the following actions:
 
-* Upload a document from Salesforce to Docparser
-* Obtain the parsed data of a previously imported document
+* [Upload a document](upload_document.apx) from Salesforce to Docparser
+* [Get the parsed data](get_parsed_document_data.apx) of a previously imported document
 
 ## Contributing
 
