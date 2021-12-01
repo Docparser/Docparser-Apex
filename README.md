@@ -46,6 +46,7 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/docpars
 The following people did contribute to this repository so far:
 
 * Theertha Prasad
+* Adheena Jacob
 
 ## License
 
