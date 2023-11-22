@@ -9,7 +9,7 @@ Attachment file = [SELECT ID,Name,Body FROM Attachment WHERE Id = 'FILE_ID']; //
 // change the following variables according to your use-case
 String apiKey = 'DP_API_KEY';
 String parserId = 'DP_PARSER_ID';
-String targetURL = 'https://app.docparser.com/v1/document/upload/' + parserId + '?remote_id=' + file.Id;
+String targetURL = 'https://api.docparser.com/v1/document/upload/' + parserId + '?remote_id=' + file.Id;
 String boundary = 'A_RANDOM_STRING';
 
 // header
